@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendo - Smart Attendance & Payroll Management System</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <header class="fixed w-full bg-white/95 backdrop-blur shadow-sm z-50 transition-all">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center text-white font-bold text-xl">A</div>
+                <span class="text-2xl font-bold text-emerald-600 tracking-tight">Attendo</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-md font-semibold">
+                <a href="#features" class="hover:text-emerald-600 transition">ফিচারসমূহ</a>
+                <a href="#screenshots" class="hover:text-emerald-600 transition">অ্যাপ প্রিভিউ</a>
+                <a href="#solutions" class="hover:text-emerald-600 transition">অ্যাডমিন প্যানেল</a>
+            </nav>
+            <a href="#download" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-full font-medium transition shadow-md shadow-emerald-200">ফ্রি ট্রায়াল শুরু করুন</a>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-20 bg-gradient-to-br from-emerald-50 via-white to-blue-50">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">সর্বাধুনিক অ্যাটেনডেন্স সলিউশন</span>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                    স্মার্ট লোকেশন ভিত্তিক <span class="text-emerald-600">হাজিরা ও পেরোল</span> ম্যানেজমেন্ট সিস্টেম
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    ফেক জিপিএস ডিটেকশন, জিও-ফেন্সিং রেঞ্জ লক, রিয়েল-টাইম নোটিফিকেশন এবং স্বয়ংক্রিয় ওভারটাইম ও স্যালারি হিসাবের অল-ইন-ওয়ান মোবাইল অ্যাপ সলিউশন। 
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#download" class="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-medium flex items-center space-x-3 transition shadow-lg">
+                        <i class="fab fa-google-play text-2xl"></i>
+                        <span class="text-left">
+                            <span class="block text-xs text-gray-400">Download for</span>
+                            <span class="text-sm font-semibold block -mt-1">Android APK</span>
+                        </span>
+                    </a>
+                    <a href="#features" class="border border-gray-300 hover:bg-gray-50 text-gray-700 px-8 py-4 rounded-xl font-medium flex items-center justify-center transition">
+                        ফিচারগুলো দেখুন
+                    </a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="absolute w-72 h-72 bg-emerald-400/20 rounded-full blur-3xl -top-10 -left-10 -z-10"></div>
+                <div class="absolute w-72 h-72 bg-blue-400/20 rounded-full blur-3xl -bottom-10 -right-10 -z-10"></div>
+                <img src="photo_2026-06-03_20-38-35 (3).jpg" alt="Attendo Home Dashboard" class="w-64 rounded-[2.5rem] shadow-2xl border-8 border-gray-900 transform rotate-2 hover:rotate-0 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <section id="screenshots" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <h2 class="text-3xl font-bold text-gray-900">অ্যাপ স্ক্রিনশট গ্যালারি</h2>
+                <p class="text-gray-500">ইউজার-ফ্রেন্ডলি ইন্টারফেস এবং ক্লিন ইউজার এক্সপেরিয়েন্সের এক চমৎকার সমন্বয়।</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-4 rounded-3xl border border-gray-100 shadow-sm text-center space-y-4">
+                    <img src="photo_2026-06-03_20-38-35 (2).jpg" alt="Login Screen" class="w-full rounded-2xl shadow-md">
+                    <p class="font-semibold text-gray-700">সিকিউর লগইন স্ক্রিন</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-3xl border border-gray-100 shadow-sm text-center space-y-4">
+                    <img src="photo_2026-06-03_20-38-35 (3).jpg" alt="Main Menu" class="w-full rounded-2xl shadow-md">
+                    <p class="font-semibold text-gray-700">স্মার্ট ড্যাশবোর্ড</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-3xl border border-gray-100 shadow-sm text-center space-y-4">
+                    <img src="photo_2026-06-03_20-38-35 (4).jpg" alt="Check In/Out Screen" class="w-full rounded-2xl shadow-md">
+                    <p class="font-semibold text-gray-700">লোকেশন ভিত্তিক চেক-ইন</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-3xl border border-gray-100 shadow-sm text-center space-y-4">
+                    <img src="photo_2026-06-03_20-38-35.jpg" alt="Attendance Overview" class="w-full rounded-2xl shadow-md">
+                    <p class="font-semibold text-gray-700">অ্যাটেনডেন্স ওভারভিউ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <h2 class="text-3xl font-bold text-gray-900">কর্মচারীদের জন্য আধুনিক ফিচার</h2>
+                <p class="text-gray-500">সহজ এবং ঝামেলাহীনভাবে উপস্থিতি ও ডিউটি ট্র্যাকিং করার সুবিধা।</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">অফিস রেঞ্জ ডিটেকশন</h3>
+                    <p class="text-gray-600">অ্যাডমিনের সেট করা নির্দিষ্ট রেঞ্জের বা ওয়ার্ক এরিয়ার মধ্যে থাকলেই কেবল চেক-ইন/আউট কাউন্ট হবে। ফেক জিপিএস কোনোভাবেই কাজ করবে না।</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-history"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">ডেইলি/উইকলি লগ ও ট্র্যাকিং</h3>
+                    <p class="text-gray-600">প্রতিদিনের মোট কাজের সময়, লেট মিনিট (Late Minutes) এবং চেক-ইন/আউট এর কমপ্লিট হিস্টোরি অ্যাপ থেকেই দেখা যাবে।</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-wallet"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">লাইভ স্যালারি আপডেট</h3>
+                    <p class="text-gray-600">প্রতিদিনের চেক-ইন এর সাথে সাথে ওই দিনের স্যালারি ব্যালেন্স আপডেট হবে এবং মাস শেষে টোটাল স্যালারি অটোমেটিক ক্যালকুলেট হবে।</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-bell"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">স্মার্ট রিমাইন্ডার ও নোটিশ</h3>
+                    <p class="text-gray-600">শিফট শুরু বা শেষের আগে অটোমেটিক পুশ নোটিফিকেশন। এছাড়া অ্যাডমিন কোনো নোটিশ দিলে তা সাথে সাথে রিয়েল-টাইমে অ্যাপে চলে আসবে।</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-file-medical"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">ইন-অ্যাপ লিভ রিকোয়েস্ট</h3>
+                    <p class="text-gray-600">ছুটির প্রয়োজন হলে সরাসরি অ্যাপ থেকেই Leave Apply করার অপশন এবং অ্যাডমিন সেটি রিজেক্ট বা অ্যাপ্রুভ করলে তার লাইভ স্ট্যাটাস।</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 space-y-4">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl font-bold"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800">ডিভাইস বাইন্ডিং সিকিউরিটি</h3>
+                    <p class="text-gray-600">একটি অ্যাকাউন্ট শুধুমাত্র একটি নির্দিষ্ট ফোনেই লগইন থাকবে। ফলে অন্য কেউ প্রক্সি বা ফেক উপস্থিতি দিতে পারবে না।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="py-20 bg-white">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative flex justify-center order-last md:order-first">
+                <img src="photo_2026-06-03_20-38-35.jpg" alt="Admin Attendance Management" class="w-72 rounded-[2.5rem] shadow-2xl border-8 border-gray-900 transform -rotate-2 hover:rotate-0 transition duration-500">
+            </div>
+            <div class="space-y-6">
+                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">পাওয়ারফুল কন্ট্রোল প্যানেল</span>
+                <h2 class="text-3xl font-bold text-gray-900">অ্যাডমিন ও ম্যানেজারদের জন্য শক্তিশালী ড্যাশবোর্ড</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    আপনার পুরো টিমকে একসাথে ম্যানেজ করুন এক জায়গা থেকেই। আলাদা ড্যাশবোর্ডের মাধ্যমে রিয়েল-টাইম ডাটা মনিটর করার সুবিধা।
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <div class="mt-1 text-emerald-600"><i class="fas fa-check-circle text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">কাস্টম লোকেশন ও রেঞ্জ সেট</h4>
+                            <p class="text-gray-600 text-sm">অ্যাডমিন নিজে প্রতিটি কর্মচারীর ডিউটি লোকেশন এবং তার চারপাশের নির্দিষ্ট রেঞ্জ (Geofence) ম্যাপে সেট করতে পারবেন।</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="mt-1 text-emerald-600"><i class="fas fa-check-circle text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">এক্সেল রোস্টার আপলোড ও কাস্টম শিফট</h4>
+                            <p class="text-gray-600 text-sm">Excel ফাইলের মাধ্যমে এক ক্লিকে পুরো মাসের ডিউটি রোস্টার আপডেট এবং শিফট টাইম কাস্টমাইজ করার সুবিধা।</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="mt-1 text-emerald-600"><i class="fas fa-check-circle text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">অটোমেটিক ওভারটাইম ও লিভ কন্ট্রোল</h4>
+                            <p class="text-gray-600 text-sm">অ্যাডমিন প্যানেল থেকে ওভারটাইম সিলেক্ট করে অটোমেটিক বোনাস স্যালারি হিসাব এবং যেকোনো লিভ রিকোয়েস্ট সরাসরি অ্যাপ্রুভ/রিজেক্ট করার সুযোগ।</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="mt-1 text-emerald-600"><i class="fas fa-check-circle text-xl"></i></div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">ওয়ান-ক্লিক এক্সেল/পিডিএফ রিপোর্ট</h4>
+                            <p class="text-gray-600 text-sm">মাসিক পে-রোল (Salary Payroll) ডাটা এবং কর্মচারীদের হাজিরা রিপোর্ট এক ক্লিকে Excel বা PDF হিসেবে ডাউনলোড করুন।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="py-20 bg-gradient-to-br from-emerald-600 to-emerald-800 text-white text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent"></div>
+        <div class="container mx-auto px-4 max-w-3xl space-y-8 relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold">আপনার ব্যবসার বা অফিসের হাজিরা ব্যবস্থাপনা ডিজিটাল করুন আজই!</h2>
+            <p class="text-emerald-100 text-lg max-w-xl mx-auto">
+                আমাদের ডেমো অ্যাপটি ফ্রিতে ডাউনলোড করুন এবং আপনার টিম ম্যানেজমেন্টকে নিয়ে যান এক নতুন উচ্চতায়।
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#" class="bg-white hover:bg-emerald-50 text-emerald-900 px-8 py-4 rounded-xl font-bold flex items-center space-x-3 transition shadow-xl">
+                    <i class="fab fa-android text-2xl text-emerald-600"></i>
+                    <span class="text-left">
+                        <span class="block text-xs text-gray-500 font-normal">Download Direct</span>
+                        <span class="text-sm font-bold block -mt-1">Download Android APK</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">A</div>
+                <span class="text-xl font-bold text-white tracking-tight">Attendo</span>
+            </div>
+            <p class="text-sm text-center md:text-left">&copy; 2026 Attendo Inc. সর্বস্বত্ব সংরক্ষিত।</p>
+            <div class="flex space-x-6 text-lg">
+                <a href="#" class="hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
